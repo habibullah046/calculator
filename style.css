@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+body{
+      background-color: #2D354A;
+
+  }
+.main_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.container {
+    height: 550px;
+    width: 300px;
+    background-color: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 2px dotted rgb(6, 236, 52);
+}
+
+.input_display {
+    padding: 40px 0;
+}
+
+#input_number_box {
+    background-color: #000000;
+    border-color: #FCAE02;
+    color:aqua;
+    height: 75px;
+    width: 250px;
+    font-size: 40px;
+    font-family: 'Agdasima', sans-serif;
+    border-radius: 10px;
+}
+
+/* #input_number_box:click {
+    border-color: #FCAE02;
+} */
+
+.buttons_container {
+    display: flex;
+}
+
+.buttons {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    font-family: 'Agdasima', sans-serif;
+    margin: 5px;
+    border-radius: 50px;
+    color: #FCAE02;
+    background-color: #000000;
+}
+
+.equal {
+    height: 100px;
+    margin-top: 10px;
+}
+
+.btn_column_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_column_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_column_3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_column_4 {
+    display: flex;
+    flex-direction: column;
+}
+.developer{
+    margin-top: 20px;
+    border-top: 1.5px dotted aquamarine;
+    color:white;
+}
+.developer p{
+    padding-top: 5px;
+    font-size: 18px;
+}
